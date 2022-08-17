@@ -1,0 +1,21 @@
+.logo {
+    width: 20%;
+}
+
+.logo img{
+    width: 80px;
+    border-radius: 50%;
+}
+
+nav, footer p {
+    width: 80%;
+}
+
+nav ul, footer p {
+    float: right;
+}
+
+footer p {
+    text-align: right;
+    font-weight: 600;
+}

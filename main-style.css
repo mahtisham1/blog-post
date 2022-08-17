@@ -1,0 +1,22 @@
+@import url('./main-style-2.css');
+@import url('./main-style-3.css');
+@import url('./queries/main-queries.css');
+
+.wrapper, body {
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+header, footer {
+    background-color: rgb(174, 123, 59);
+    padding: 10px;
+}
+
+header, nav ul, footer {
+    display: flex;
+    align-items: center;
+}
+
+
+
+

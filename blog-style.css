@@ -1,0 +1,175 @@
+@import url('./main-style.css');
+
+body {
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+
+#section {
+    max-width: 80%;
+}
+
+#section, .container, article {
+    margin: 50px auto;
+}
+
+#section img {
+    width: 100%;
+    height: 500px;
+}
+
+.container p {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.avatar {
+    display: grid;
+    grid-template-columns: 70px 300px;
+    gap: 10px;
+    align-items: center;
+}
+
+#section .avatar img {
+    width: 70px;
+    height: 70px;
+    border: 1px solid burlywood;
+    border-radius: 50%;
+}
+
+.title h3, p, h5 {
+    margin: 0;
+}
+
+.title p {
+    font-size: 14px;
+}
+
+blockquote {
+    font-style: italic;
+    font-weight: bold;
+}
+
+blockquote h5 {
+    margin-left: 18.5rem;
+}
+
+figure {
+    text-align: center;
+}
+
+figure img {
+    max-width: 800px;
+}
+
+figcaption {
+    font-weight: bold;
+}
+
+.social-media-list ul {
+    display: flex;
+    justify-content: end;
+    font-size: 50px;
+    margin: 0;
+}
+
+.social-media-list ul li {
+    padding: 10px;
+}
+
+.fa-square-facebook {
+    color: #3b5998;
+}
+
+.fa-square-twitter {
+    color: #00acee;
+}
+
+.fa-linkedin {
+    color: #0072b1;
+}
+
+@media only screen and (max-width:900px) {
+    #section img {
+        height: 400px;
+    }
+
+    figure img {
+        max-height: 300px;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    #section img {
+        height: 250px;
+    }
+
+    figure img {
+        max-height: 200px;
+    }
+
+    .container p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    blockquote h5 {
+        margin-left: 14rem;
+    }
+}
+
+@media only screen and (max-width:450px) {
+    #section img {
+        height: 220px;
+    }
+
+    .avatar {
+        grid-template-columns: 250px;
+    }
+
+    .title h3 {
+        font-size: 16px;
+    }
+    .title p {
+        font-size: 12px;
+    }
+
+    figure img {
+        max-height: 180px;
+    }
+
+    blockquote h5 {
+        margin-left: 10rem;
+    }
+
+    .social-media-list ul {
+        font-size: 35px;
+    }
+
+    #section, .container, article {
+        margin: 30px auto;
+    }
+}
+
+@media only screen and (max-width:300px) {
+    #section img {
+        height: 150px;
+    }
+
+    figure img {
+        max-height: 120px;
+    }
+
+    blockquote h5 {
+        margin-left: 6rem;
+    }
+
+    .container p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    figure img {
+        max-height: 100px;
+    }
+}
